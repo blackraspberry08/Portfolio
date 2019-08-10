@@ -7,5 +7,10 @@ export default [
     path: '/',
     component: InProgress
     // component: Home
+  },
+  {
+    name: 'Home Home',
+    path: '/home2',
+    component: Home
   }
 ]

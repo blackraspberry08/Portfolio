@@ -1,5 +1,7 @@
 <template>
-  <h1>Hello</h1>
+  <router-link to="/">
+    <v-btn>Home</v-btn>
+  </router-link>
 </template>
 
 <script>
