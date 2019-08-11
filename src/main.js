@@ -3,13 +3,25 @@ import Vuetify from 'vuetify'
 import NProgress from 'vue-nprogress'
 import App from './App.vue'
 import 'vuetify/dist/vuetify.min.css'
+import colors from 'vuetify/lib/util/colors'
 import router from '@/routes/router'
 
 Vue.config.productionTip = false
 
 //vuetify
 Vue.use(Vuetify)
-const vuetify = new Vuetify()
+const vuetify = new Vuetify(
+  {
+    theme: {
+      themes: {
+        light: {
+          primary: colors.yellow.lighten1,
+          accent: colors.blue.lighten2
+        }
+      }
+    }
+  }    
+)
 
 //NProgress
 const options = {

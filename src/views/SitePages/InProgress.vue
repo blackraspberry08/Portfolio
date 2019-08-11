@@ -1,14 +1,25 @@
 <template>
-  <v-container>
-    <h1>In Progress</h1>
-    <router-link to="home2">
-      <v-btn>Home2</v-btn>
-    </router-link>
+  <v-container 
+    fluid
+    fill-height
+    class="primary"
+  >
+    <site-layout :message="message"/>
   </v-container>
 </template>
 
 <script>
+import SiteLayout from './SiteLayout'
+
 export default {
-  name: 'in-progress'
+  name: 'in-progress',
+  components: {
+    SiteLayout
+  },
+  computed: {
+    message(){
+      return "Currently gathering my credentials..."
+    }
+  }
 }
 </script>

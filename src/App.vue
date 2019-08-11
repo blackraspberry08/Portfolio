@@ -1,22 +1,25 @@
 <template>
   <v-app dark>
     <nprogress-container/>
-    <v-fade-transition>
+    <v-content>
       <router-view
         class="smooth-opacity fast"
         :style="{ opacity: 1 }"
       />
-    </v-fade-transition>
+    </v-content>
+    <app-footer/>
   </v-app>
 </template>
 
 <script>
 import NprogressContainer from 'vue-nprogress/src/NprogressContainer'
+import AppFooter from '@/components/app/AppFooter'
 
 export default {
   name: 'app',
   components: {
-    NprogressContainer
+    NprogressContainer,
+    AppFooter
   }
 }
 </script>
