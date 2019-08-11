@@ -18,7 +18,7 @@ export default {
   },
   computed: {
     message(){
-      return "Currently gathering my credentials..."
+      return "Coming Soon..."
     }
   }
 }
