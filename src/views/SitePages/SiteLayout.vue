@@ -5,7 +5,12 @@
     row 
     fill-height
   >
-    <h1 class="display-3">{{ message }}</h1>
+    <v-spacer/>
+    <v-flex>
+      <h1 class="display-3" v-if="message">{{ message }}</h1>
+      <slot/>
+    </v-flex>
+    <v-spacer/>
   </v-layout>
 </template>
 

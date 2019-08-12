@@ -12,6 +12,7 @@
     "vue": "^2.6.10",
     "vue-nprogress": "^0.1.5",
     "vue-router": "^3.1.2",
+    "vue-svg-draw": "^1.0.7",
     "vuetify": "^2.0.5"
   },
   "devDependencies": {

@@ -1,10 +1,9 @@
 <template>
-  <router-link to="/">
-    <v-btn>Home</v-btn>
-  </router-link>
+  <h1>s</h1>
 </template>
 
 <script>
+
 export default {
   name: 'home'
 }

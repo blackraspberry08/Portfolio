@@ -6,6 +6,5 @@ export default [
     name: 'Home',
     path: '/',
     component: InProgress
-    // component: Home
   }
 ]

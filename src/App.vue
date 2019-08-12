@@ -6,8 +6,8 @@
         class="smooth-opacity fast"
         :style="{ opacity: 1 }"
       />
-    <app-footer/>
     </v-content>
+    <app-footer/>
   </v-app>
 </template>
 
