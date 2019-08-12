@@ -1,9 +1,10 @@
 <template>
-  <h1>s</h1>
+  <v-container>
+    <h1>dsadsa</h1>
+  </v-container>
 </template>
 
 <script>
-
 export default {
   name: 'home'
 }

@@ -8,7 +8,11 @@
         <v-spacer/>
         <v-tooltip left>
           <template v-slot:activator="{ on }">
-            <a href="https://github.com/blackraspberry08" target="_blank" v-on="on">
+            <a 
+              href="https://github.com/blackraspberry08" 
+              target="_blank"
+              v-on="on"
+            >
               <v-avatar size="32">
                 <img src="logo.png" alt="avatar">
               </v-avatar>

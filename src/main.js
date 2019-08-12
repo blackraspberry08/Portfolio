@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
 import NProgress from 'vue-nprogress'
+import VueMoJS from 'vue-mo-js'
 import App from './App.vue'
 import 'vuetify/dist/vuetify.min.css'
 import colors from 'vuetify/lib/util/colors'
@@ -25,12 +26,15 @@ const vuetify = new Vuetify(
 
 //NProgress
 const options = {
-  latencyThreshold: 200, // Number of ms before progressbar starts showing, default: 100,
-  router: true, // Show progressbar when navigating routes, default: true
-  http: false // Show progressbar when doing Vue.http, default: true
+  latencyThreshold: 200,
+  router: true, 
+  http: false
 }
 Vue.use(NProgress, options)
 const nprogress = new NProgress({ showSpinner: false })
+
+// VueMoJS
+Vue.use(VueMoJS)
 
 new Vue({
   vuetify,

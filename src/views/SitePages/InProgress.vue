@@ -10,7 +10,7 @@
         file='/svg/coming_soon.svg' 
         type="delayed"
         pathTiming="EASE"
-        :duration="duration" 
+        :duration="duration"
       />
     </site-layout>
   </v-container>
@@ -26,6 +26,9 @@ export default {
     SiteLayout,
     vueSvgDraw
   },
+  data: () => ({
+    hideDrawing: false 
+  }),
   computed:{
     duration(){
       return 400
