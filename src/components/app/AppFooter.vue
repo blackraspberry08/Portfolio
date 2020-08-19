@@ -9,7 +9,7 @@
         <v-tooltip left>
           <template v-slot:activator="{ on }">
             <a 
-              href="https://github.com/blackraspberry08" 
+              href="https://github.com/blackraspberryyy" 
               target="_blank"
               v-on="on"
             >
